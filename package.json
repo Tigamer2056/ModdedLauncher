@@ -1,11 +1,11 @@
 {
-  "name": "helioslauncher",
-  "version": "2.2.1",
-  "productName": "Helios Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
-  "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "name": "ModdedLauncher",
+  "version": "0.0.1",
+  "productName": "ModdedQC Launcher",
+  "description": "ModdedQC Launcher",
+  "author": "Ti_gamer20",
+  "license": "Licensed",
+  "homepage": "https://github.com/Tigamer2056/ModdedLauncher",
   "bugs": {
     "url": "https://github.com/dscalzi/HeliosLauncher/issues"
   },
