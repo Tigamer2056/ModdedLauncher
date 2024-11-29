@@ -1,15 +1,15 @@
 {
-  "name": "ModdedLauncher",
+  "name": "moddedlauncher",
   "version": "0.0.1",
   "productName": "ModdedQC Launcher",
   "description": "Le launcher officiel de ModdedQC",
   "author": "Ti_gamer20",
-  "license": "Licensed",
+  "license": "UNLICENSED",
   "homepage": "https://github.com/Tigamer2056/ModdedLauncher",
   "bugs": {
     "url": "https://github.com/dscalzi/HeliosLauncher/issues"
   },
-  "private": true,
+  "private": false,
   "main": "index.js",
   "scripts": {
     "start": "electron .",
@@ -47,5 +47,11 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [
+    "minecraft"
+  ]
 }
