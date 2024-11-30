@@ -12,12 +12,7 @@
   "private": false,
   "main": "index.js",
   "scripts": {
-    "start": "electron .",
-    "dist": "electron-builder build",
-    "dist:win": "npm run dist -- -w",
-    "dist:mac": "npm run dist -- -m",
-    "dist:linux": "npm run dist -- -l",
-    "lint": "eslint --config .eslintrc.json ."
+    "build": "electron-builder"
   },
   "engines": {
     "node": "20.x.x"
@@ -46,7 +41,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/ModdedLauncher.git"
+    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+  },
+  "build": {
+    "directories": {
+      "output": "dist"
+    }
   },
   "directories": {
     "doc": "docs"

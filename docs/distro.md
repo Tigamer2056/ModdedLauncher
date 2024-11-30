@@ -17,16 +17,16 @@ The distribution index is written in JSON. The general format of the index is as
     "rss": "https://westeroscraft.com/articles/index.rss",
     "servers": [
         {
-            "id": "Example_Server",
-            "name": "WesterosCraft Example Client",
-            "description": "Example WesterosCraft server. Connect for fun!",
+            "id": "Moddedqc_officialpublic",
+            "name": "ModdedQC",
+            "description": "Le serveur officiel de ModdedQC",
             "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/example_icon.png",
             "version": "0.0.1",
-            "address": "mc.westeroscraft.com:1337",
-            "minecraftVersion": "1.11.2",
+            "address": "localhost:25565",
+            "minecraftVersion": "1.18.2",
             "discord": {
-                "shortId": "Example",
-                "largeImageText": "WesterosCraft Example Server",
+                "shortId": "mdqc",
+                "largeImageText": "Le serveur ModdedQC",
                 "largeImageKey": "server-example"
             },
             "mainServer": true,
@@ -81,16 +81,16 @@ A URL to a RSS feed. Used for loading news.
 #### Example
 ```JSON
 {
-    "id": "Example_Server",
-    "name": "WesterosCraft Example Client",
-    "description": "Example WesterosCraft server. Connect for fun!",
+    "id": "Moddedqc_officialpublic",
+    "name": "ModdedQC",
+    "description": "Le serveur officiel de ModdedQCs",
     "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/example_icon.png",
     "version": "0.0.1",
-    "address": "mc.westeroscraft.com:1337",
-    "minecraftVersion": "1.11.2",
+    "address": "localhost:25565",
+    "minecraftVersion": "1.18.2",
     "discord": {
-        "shortId": "Example",
-        "largeImageText": "WesterosCraft Example Server",
+        "shortId": "mdqc",
+        "largeImageText": "Le serveur ModdedQC",
         "largeImageKey": "server-example"
     },
     "mainServer": true,

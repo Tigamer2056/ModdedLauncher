@@ -46,6 +46,10 @@ linux:
   category: 'Game'
 
 
-directories:
-  buildResources: 'build'
-  output: 'dist'
+"build": {
+  "appId": "com.example.app",
+  "directories": {
+    "output": "dist",  // Defines where the built files go
+    "buildResources": "resources" // Optional: defines where resources like icons are stored
+  }
+}
